@@ -10,6 +10,18 @@
     <title>Document</title>
 </head>
 <body>
+    <footer class="footer">
+        
+        <div class="footer-menu">
+            <ul class="items-menu ">
+                <li><a href="#"><img src="./img/logoplus.svg" alt=""></a></li>
+                <li><a href="#"><img src="./img/de.svg" alt=""></a></li>
+                <li class="active"><a href="#"><img src="./img/home.svg" alt=""></a></li>
+                <li><a href="#"><img src="./img/vip .svg" alt=""></a></li>
+                <li><a href="#"><img src="./img/game.svg" alt=""></a></li>
+            </ul>
+        </div>
+    </footer>
     <header>
         
         <div class="container">
@@ -19,7 +31,7 @@
                     <span>eduka'miam</span>
                     <img src="./img/logo.tmp" alt="">
                 </div>
-                <nav>
+                <nav class="nav-side-menu">
                     <div class="nav-items">
                         <div class="close">
                             <a class="close-items" href="#"><img src="./img/Close Filaire.svg" alt=""></img></a>
@@ -36,6 +48,16 @@
                    
                     
                 </nav>
+                <nav class="nav-menu">
+                    <ul class="nav-menu-list">
+                        <li class="active"><a href="#">Accueil</a></li>
+                        <li><a href="#">Recette</a></li>
+                        <li><a href="#">Jeu</a></li>
+                        <li><a href="#">vip</a></li>
+                        <li><a href="#">Tirage </a></li>
+                    </ul>
+
+                </nav>
                 <a class="user-profil" href=""><i class="fa fa-circle-user"></i></a>
 
             </div>
@@ -44,21 +66,43 @@
     </header>
 
     <main>
+        <div class="content">
+            <section class="research">
+                <div class="container">
+                    <div class="form-group">
+                        <input class="form-control img-control" type="text" name="search" value="" placeholder="Recherche...">
+                        <img class="form-image" src="./img/Search.svg" alt="">
+    
+                    </div>
+                    <div class="tags-list">
+                        <div class="">
+                            <p> trier par :</p>
+                        </div>
+                        <div class="tags">
+                           
+                        </div>
+                    </div>
+                </div>
+                
+    
+            </section>
+            
+            <section>
+                <div class="container">
+                    <div class="articles">
+                    
+                    </div>
+                </div>
+            </section>
+        </div>
+      
+        
         
 
     </main>
 
-    <footer>
-        <div class="footer-menu">
-            <ul class="items-menu ">
-                <li><a href="#"><img src="./img/logoplus.svg" alt=""></a></li>
-                <li><a href="#"><img src="./img/de.svg" alt=""></a></li>
-                <li class="active"><a href="#"><img src="./img/home.svg" alt=""></a></li>
-                <li><a href="#"><img src="./img/vip .svg" alt=""></a></li>
-                <li><a href="#"><img src="./img/game.svg" alt=""></a></li>
-            </ul>
-        </div>
-    </footer>
+    
     <script src="script.js"></script>
+    <script src="data.js"></script>
 </body>
 </html>

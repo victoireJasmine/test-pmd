@@ -1,6 +1,6 @@
 const $close = document.querySelectorAll(".close-items");
 const $menu = document.querySelectorAll(".burger-menu");
-const $navHeader = document.querySelector(".header nav");
+const $navHeader = document.querySelector(".header .nav-side-menu");
 if ($close) {
     $close.forEach(element => {
         element.addEventListener("click", closeMenu)
